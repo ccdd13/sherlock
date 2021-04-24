@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+project_root="$(realpath $(dirname ${0})/..)"
+cd "${project_root}"
+
 [ "${1}" == "-f" ] && rm -fv ./.pip-requirements-installed
 
 if [[ ! -f '.pip-requirements-installed' ]] ; then
