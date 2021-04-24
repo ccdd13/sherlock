@@ -3,7 +3,7 @@
 project_root="$(realpath $(dirname ${0})/..)"
 cd "${project_root}"
 
-bash ./pipinstall.sh
+bash ./bin/pipinstall.sh
 
 echo -en 'enter usernames to search for:\n\t'
 read -p '? ' REPLY
