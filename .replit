@@ -1,2 +1,2 @@
 language = "python3"
-run = "bash -x replit.sh"
+run = "bash ./replit.sh"
